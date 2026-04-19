@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background: #0b0f1a;
+    color: white;
+    overflow-x: hidden;
+    cursor: none;
+}
+
+/* Stars */
+.stars {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url("https://www.transparenttextures.com/patterns/stardust.png");
+    animation: moveStars 120s linear infinite;
+    z-index: -1;
+}
+
+@keyframes moveStars {
+    from { background-position: 0 0; }
+    to { background-position: 10000px 5000px; }
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    letter-spacing: 6px;
+}
+
+.glow {
+    color: #00f7ff;
+    text-shadow: 0 0 10px #00f7ff,
+                 0 0 20px #00f7ff,
+                 0 0 40px #00f7ff;
+}
+
+.hero p {
+    margin: 20px 0;
+    opacity: 0.8;
+}
+
+.btn {
+    padding: 12px 25px;
+    border: 2px solid #00f7ff;
+    color: #00f7ff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #00f7ff;
+    color: black;
+    box-shadow: 0 0 20px #00f7ff;
+}
+
+/* Sections */
+.section {
+    padding: 100px 10%;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 1s ease;
+}
+
+.section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.section h2 {
+    color: #00f7ff;
+    margin-bottom: 40px;
+}
+
+/* Skills */
+.skill {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.bar {
+    width: 100%;
+    height: 10px;
+    background: #1a1f2e;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    background: #00f7ff;
+    border-radius: 10px;
+    transition: 2s ease;
+}
+
+/* Projects */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0,247,255,0.2);
+    transition: 0.4s;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card h3 {
+    color: #00f7ff;
+    margin-bottom: 10px;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 15px;
+    border: 1px solid #00f7ff;
+    color: #00f7ff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    background: #00f7ff;
+    color: black;
+    box-shadow: 0 0 15px #00f7ff;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px #00f7ff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #070b14;
+    opacity: 0.6;
+}
+
+/* Cursor */
+.cursor {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #00f7ff;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px #00f7ff;
+    z-index: 9999;
+}
