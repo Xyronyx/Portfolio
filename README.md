@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.png" alt="Xyronyx Banner"/>
+  <img src="./https://raw.githubusercontent.com/Xyronyx/Portfolio/main/banner.png.jpeg" alt="Xyronyx Banner"/>
 </p>
 
 <h1 align="center">Xyronyx</h1>
