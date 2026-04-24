@@ -18,7 +18,7 @@
 
 ---
 
-## ⚡ About
+##   About
 
 This is my personal developer portfolio showcasing my skills, projects, and ability to build modern web applications.
 
@@ -29,22 +29,22 @@ Designed with a focus on:
 
 ---
 
-## 🌐 Live Website
+##   Live Website
 
-👉 https://xyronyx.github.io/Portfolio/
-
----
-
-## 🚀 What I Do
-
-- 🎨 Build modern UI/UX  
-- ⚡ Create fast and responsive websites  
-- 🧠 Design scalable frontend systems  
-- 🔧 Turn ideas into real-world projects  
+  https://xyronyx.github.io/Portfolio/
 
 ---
 
-## 🛠️ Tech Stack
+##   What I Do
+
+-   Build modern UI/UX  
+-   Create fast and responsive websites  
+-  Design scalable frontend systems  
+-   Turn ideas into real-world projects  
+
+---
+
+##   Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js" />
@@ -56,16 +56,16 @@ Designed with a focus on:
 
 ---
 
-## 📂 Portfolio Sections
+##  Portfolio Sections
 
-- 🏠 Home  
-- 👨‍💻 About  
-- 📁 Projects  
-- 📞 Contact  
+-   Home  
+-   About  
+-   Projects  
+-   Contact  
 
 ---
 
-## 📸 Preview
+##   Preview
 
 <p align="center">
   <img src="./preview.png" width="800"/>
