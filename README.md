@@ -52,7 +52,8 @@ Designed with a focus on:
 
 - HTML  
 - CSS  
-- JavaScript  
+- JavaScript
+- C++ 
 
 ---
 
