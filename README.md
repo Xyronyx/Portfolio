@@ -47,7 +47,7 @@ Designed with a focus on:
 ##   Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,C++"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js"/>
 </p>
 
 - HTML  
