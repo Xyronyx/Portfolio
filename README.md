@@ -47,11 +47,10 @@ Designed with a focus on:
 ##   Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,c++,css,js"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js"/>
 </p>
 
 - HTML
-- C++
 - CSS  
 - JavaScript
 
